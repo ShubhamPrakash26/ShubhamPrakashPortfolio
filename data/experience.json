@@ -1,0 +1,32 @@
+{
+  "experiences": [
+    {
+      "id": 1,
+      "company": "Intel Unnati",
+      "position": "Software Development Intern",
+      "duration": "Jul 2024 – Sep 2024",
+      "description": "Built Flask + TensorFlow image depixelation application with advanced SRGAN architecture. Reduced processing time by 30% through optimization techniques.",
+      "achievements": [
+        "Developed end-to-end image enhancement pipeline",
+        "Implemented SRGAN for super-resolution",
+        "Optimized model performance by 30%",
+        "Created user-friendly web interface"
+      ],
+      "tech": ["Flask", "TensorFlow", "SRGAN", "Python", "OpenCV"]
+    },
+    {
+      "id": 2,
+      "company": "Bharat Intern",
+      "position": "Web Development Intern",
+      "duration": "Oct – Dec 2023",
+      "description": "Developed responsive web applications with modern frameworks. Boosted user engagement by 40% through improved UX/UI design and performance optimization.",
+      "achievements": [
+        "Built responsive web applications",
+        "Improved user engagement by 40%",
+        "Implemented modern UI/UX practices",
+        "Optimized application performance"
+      ],
+      "tech": ["React", "JavaScript", "CSS3", "Bootstrap", "Git"]
+    }
+  ]
+}

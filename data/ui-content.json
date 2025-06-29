@@ -1,0 +1,163 @@
+{
+  "hero": {
+    "greeting": "> Hello World! I am",
+    "codeSnippets": {
+      "role": {
+        "const": "const",
+        "variable": "role",
+        "equals": "=",
+        "value": "Full-Stack Developer | Data Science Enthusiast"
+      }
+    },
+    "ctaButtons": [
+      {
+        "text": "View Projects",
+        "type": "primary",
+        "action": "scrollToProjects",
+        "icon": "ExternalLink"
+      },
+      {
+        "text": "Download Resume",
+        "type": "secondary",
+        "action": "downloadResume",
+        "icon": "Download"
+      }
+    ],
+    "scrollIndicator": {
+      "show": true,
+      "delay": 1.5
+    }
+  },
+  "sections": {
+    "skills": {
+      "title": "Skills & Expertise",
+      "subtitle": "A comprehensive toolkit for building modern applications"
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "subtitle": "Showcasing innovative solutions and technical expertise",
+      "otherProjectsTitle": "Other Notable Projects"
+    },
+    "experience": {
+      "title": "Experience",
+      "subtitle": "Professional journey and key achievements"
+    },
+    "education": {
+      "title": "Education & Achievements",
+      "subtitle": "Academic journey and notable accomplishments"
+    },
+    "blog": {
+      "title": "Latest Blog Posts",
+      "subtitle": "Sharing insights on technology, development, and innovation",
+      "ctaText": "View All Blog Posts"
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "subtitle": "Ready to collaborate? Let's discuss your next project or opportunity",
+      "formTitle": "Send a Message",
+      "availabilityStatus": {
+        "available": true,
+        "text": "Available for Work",
+        "description": "Currently open to new opportunities and exciting projects"
+      }
+    }
+  },
+  "admin": {
+    "signin": {
+      "title": "Admin Sign In",
+      "subtitle": "Access your blog dashboard",
+      "demoCredentials": {
+        "show": true,
+        "username": "admin",
+        "password": "admin123"
+      },
+      "backToPortfolio": "← Back to Portfolio"
+    },
+    "dashboard": {
+      "title": "Dashboard Overview",
+      "subtitle": "Welcome back! Here's what's happening with your blog."
+    },
+    "createBlog": {
+      "title": "Create New Post",
+      "subtitle": "Write and publish your next blog post.",
+      "form": {
+        "titleLabel": "Title",
+        "titlePlaceholder": "Enter post title",
+        "tagsLabel": "Tags",
+        "tagsPlaceholder": "e.g., react, javascript, webdev",
+        "tagsHelp": "Comma-separated values",
+        "coverImageLabel": "Cover Image",
+        "uploadText": "Upload a file",
+        "uploadSubtext": "PNG, JPG, GIF up to 10MB",
+        "seoSettingsTitle": "SEO Settings",
+        "slugLabel": "Slug",
+        "slugPlaceholder": "Enter URL-friendly slug",
+        "metaDescriptionLabel": "Meta Description",
+        "metaDescriptionPlaceholder": "Enter meta description (max 160 characters)",
+        "contentEditorTitle": "Content Editor",
+        "contentPlaceholder": "Write your post content here using Markdown...\nSupports headings, lists, code blocks, and more!",
+        "previewTitle": "Live Preview",
+        "previewText": "Live preview of your post content will appear here as you type in the editor above.",
+        "saveButton": "Save as Draft",
+        "publishButton": "Publish"
+      }
+    },
+    "allBlogs": {
+      "title": "All Blog Posts",
+      "subtitle": "Manage and organize your blog content.",
+      "searchPlaceholder": "Search posts by title or tags...",
+      "createNewButton": "Create New Post",
+      "tableHeaders": {
+        "title": "Title",
+        "date": "Date",
+        "views": "Views",
+        "tags": "Tags",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "noResults": "No blog posts found matching your search.",
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next"
+      }
+    },
+    "editBlogs": {
+      "title": "Edit Blog Posts",
+      "subtitle": "Select a blog post to edit and update its content.",
+      "searchPlaceholder": "Search posts to edit...",
+      "editButton": "Edit Post",
+      "noResults": "No blog posts found matching your search.",
+      "createFirstPost": "Create Your First Post"
+    },
+    "analytics": {
+      "title": "Blog Analytics",
+      "subtitle": "Detailed insights into your blog performance and audience engagement.",
+      "charts": {
+        "trafficOverTime": "Traffic Over Time",
+        "topPerformingPosts": "Top Performing Posts",
+        "trafficSources": "Traffic Sources",
+        "deviceTypes": "Device Types",
+        "geographicDistribution": "Geographic Distribution"
+      },
+      "chartSubtitles": {
+        "lastSixMonths": "Last 6 Months",
+        "byViews": "By Views",
+        "whereVisitorsComeFrom": "Where your visitors come from",
+        "visitorDeviceBreakdown": "Visitor device breakdown",
+        "topCountries": "Top countries"
+      }
+    }
+  },
+  "footer": {
+    "brandDescription": "Building the future with code, one project at a time. Passionate about creating innovative solutions that make a difference.",
+    "madeWith": "Made with",
+    "and": "and",
+    "by": "by Shubham",
+    "quickLinksTitle": "Quick Links",
+    "connectTitle": "Connect",
+    "copyright": "All rights reserved.",
+    "builtWith": "Built with Next.js & Tailwind CSS",
+    "deployedOn": "Deployed on Vercel",
+    "easterEgg": "Hey recruiter 👋 Thanks for checking out the console!"
+  }
+}

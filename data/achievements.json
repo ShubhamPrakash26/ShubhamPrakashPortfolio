@@ -1,0 +1,40 @@
+{
+  "achievements": [
+    {
+      "title": "Android Development in Kotlin",
+      "issuer": "Google",
+      "type": "certification",
+      "date": "2024",
+      "icon": "🤖"
+    },
+    {
+      "title": "Modern Flask Development",
+      "issuer": "IIT Madras",
+      "type": "certification",
+      "date": "2024",
+      "icon": "🐍"
+    },
+    {
+      "title": "Math Olympiad",
+      "issuer": "National Competition",
+      "type": "achievement",
+      "date": "2023",
+      "description": "Rank 272 out of 15,000 participants",
+      "icon": "🏆"
+    }
+  ],
+  "responsibilities": [
+    {
+      "organization": "FED KIIT",
+      "position": "Sr. Technical Executive",
+      "duration": "Oct 2023 – Present",
+      "description": "Managed Skill Hunt events and optimized web applications by 30%. Led technical workshops and mentored junior developers."
+    },
+    {
+      "organization": "Student Council",
+      "position": "Technical Lead",
+      "duration": "Jun 2017 – Jun 2019",
+      "description": "Led code of conduct changes and increased student engagement through innovative technical solutions."
+    }
+  ]
+}

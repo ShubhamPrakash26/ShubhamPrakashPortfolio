@@ -1,0 +1,109 @@
+{
+  "contactForm": {
+    "fields": [
+      {
+        "id": "name",
+        "name": "name",
+        "type": "text",
+        "label": "Name",
+        "placeholder": "Your full name",
+        "required": true
+      },
+      {
+        "id": "email",
+        "name": "email",
+        "type": "email",
+        "label": "Email",
+        "placeholder": "your.email@example.com",
+        "required": true
+      },
+      {
+        "id": "message",
+        "name": "message",
+        "type": "textarea",
+        "label": "Message",
+        "placeholder": "Tell me about your project or opportunity...",
+        "required": true,
+        "rows": 5
+      }
+    ],
+    "submitButton": {
+      "text": "Send Message",
+      "icon": "Send"
+    }
+  },
+  "signinForm": {
+    "fields": [
+      {
+        "id": "username",
+        "name": "username",
+        "type": "text",
+        "label": "Username",
+        "placeholder": "Enter your username",
+        "required": true,
+        "icon": "User"
+      },
+      {
+        "id": "password",
+        "name": "password",
+        "type": "password",
+        "label": "Password",
+        "placeholder": "Enter your password",
+        "required": true,
+        "icon": "Lock"
+      }
+    ],
+    "submitButton": {
+      "text": "Sign In",
+      "loadingText": "Signing In...",
+      "icon": "ArrowRight"
+    }
+  },
+  "createBlogForm": {
+    "fields": [
+      {
+        "id": "title",
+        "name": "title",
+        "type": "text",
+        "label": "Title",
+        "placeholder": "Enter post title",
+        "required": true
+      },
+      {
+        "id": "tags",
+        "name": "tags",
+        "type": "text",
+        "label": "Tags",
+        "placeholder": "e.g., react, javascript, webdev",
+        "required": false,
+        "help": "Comma-separated values"
+      },
+      {
+        "id": "slug",
+        "name": "slug",
+        "type": "text",
+        "label": "Slug",
+        "placeholder": "Enter URL-friendly slug",
+        "required": true
+      },
+      {
+        "id": "metaDescription",
+        "name": "metaDescription",
+        "type": "textarea",
+        "label": "Meta Description",
+        "placeholder": "Enter meta description (max 160 characters)",
+        "required": false,
+        "rows": 3
+      },
+      {
+        "id": "content",
+        "name": "content",
+        "type": "textarea",
+        "label": "Content",
+        "placeholder": "Write your post content here using Markdown...\nSupports headings, lists, code blocks, and more!",
+        "required": true,
+        "rows": 20
+      }
+    ]
+  }
+}

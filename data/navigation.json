@@ -1,0 +1,68 @@
+{
+  "mainNavigation": [
+    { "name": "Home", "href": "#home", "type": "anchor" },
+    { "name": "Skills", "href": "#skills", "type": "anchor" },
+    { "name": "Projects", "href": "#projects", "type": "anchor" },
+    { "name": "Experience", "href": "#experience", "type": "anchor" },
+    { "name": "Education", "href": "#education", "type": "anchor" },
+    { "name": "Blog", "href": "/blog", "type": "link" },
+    { "name": "Contact", "href": "#contact", "type": "anchor" },
+    { "name": "Admin", "href": "/admin/signin", "type": "link" }
+  ],
+  "adminNavigation": [
+    {
+      "icon": "LayoutDashboard",
+      "label": "Dashboard Overview",
+      "href": "/admin/dashboard"
+    },
+    {
+      "icon": "PlusCircle",
+      "label": "Create Blog",
+      "href": "/admin/create-blog"
+    },
+    {
+      "icon": "Edit3",
+      "label": "Edit Blogs",
+      "href": "/admin/edit-blogs"
+    },
+    {
+      "icon": "FileText",
+      "label": "View All Blogs",
+      "href": "/admin/all-blogs"
+    },
+    {
+      "icon": "BarChart3",
+      "label": "Blog Analytics",
+      "href": "/admin/analytics"
+    }
+  ],
+  "socialLinks": [
+    {
+      "icon": "Github",
+      "label": "GitHub",
+      "href": "https://github.com/shubhamprakash26"
+    },
+    {
+      "icon": "Linkedin",
+      "label": "LinkedIn",
+      "href": "https://linkedin.com/in/shubhamprakash26"
+    },
+    {
+      "icon": "Mail",
+      "label": "Email",
+      "href": "mailto:prakashshubham26@gmail.com"
+    },
+    {
+      "icon": "Phone",
+      "label": "Phone",
+      "href": "tel:+91-9334676986"
+    }
+  ],
+  "footerLinks": [
+    { "name": "Home", "href": "#home" },
+    { "name": "Skills", "href": "#skills" },
+    { "name": "Projects", "href": "#projects" },
+    { "name": "Experience", "href": "#experience" },
+    { "name": "Contact", "href": "#contact" }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Pixelated Image Detection",
+      "description": "Advanced image enhancement using Flask + TensorFlow with SRGAN architecture, achieving 70% clarity improvement in pixelated images.",
+      "tech": ["Flask", "TensorFlow", "SRGAN", "Python", "OpenCV"],
+      "github": "https://github.com/shubhamprakash26/pixelated-detection",
+      "demo": "#",
+      "image": "/placeholder.svg?height=200&width=300",
+      "featured": true,
+      "category": "AI/ML"
+    },
+    {
+      "id": 2,
+      "title": "BudgetMentor",
+      "description": "AI-powered budgeting tool built with MERN stack and Gemini API for intelligent financial planning and expense tracking.",
+      "tech": ["React", "Node.js", "MongoDB", "Gemini API", "Express"],
+      "github": "https://github.com/shubhamprakash26/budget-mentor",
+      "demo": "#",
+      "image": "/placeholder.svg?height=200&width=300",
+      "featured": true,
+      "category": "Full Stack"
+    },
+    {
+      "id": 3,
+      "title": "Quiz Master",
+      "description": "Interactive quiz application with dynamic question generation, real-time scoring, and comprehensive analytics dashboard.",
+      "tech": ["Flask", "SQLAlchemy", "Bootstrap", "JavaScript", "SQLite"],
+      "github": "https://github.com/shubhamprakash26/quiz-master",
+      "demo": "#",
+      "image": "/placeholder.svg?height=200&width=300",
+      "featured": false,
+      "category": "Web App"
+    },
+    {
+      "id": 4,
+      "title": "Data Analytics Dashboard",
+      "description": "Comprehensive data visualization platform with real-time analytics and interactive charts for business intelligence.",
+      "tech": ["React", "D3.js", "Python", "FastAPI", "PostgreSQL"],
+      "github": "#",
+      "demo": "#",
+      "image": "/placeholder.svg?height=200&width=300",
+      "featured": false,
+      "category": "Data Science"
+    },
+    {
+      "id": 5,
+      "title": "E-Commerce Platform",
+      "description": "Full-featured e-commerce solution with payment integration, inventory management, and admin dashboard.",
+      "tech": ["Next.js", "Stripe", "Prisma", "PostgreSQL", "Tailwind"],
+      "github": "#",
+      "demo": "#",
+      "image": "/placeholder.svg?height=200&width=300",
+      "featured": false,
+      "category": "Full Stack"
+    },
+    {
+      "id": 6,
+      "title": "ML Model Deployment",
+      "description": "Scalable machine learning model deployment platform with Docker containerization and CI/CD pipeline.",
+      "tech": ["Docker", "Kubernetes", "MLflow", "FastAPI", "AWS"],
+      "github": "#",
+      "demo": "#",
+      "image": "/placeholder.svg?height=200&width=300",
+      "featured": false,
+      "category": "DevOps"
+    }
+  ]
+}

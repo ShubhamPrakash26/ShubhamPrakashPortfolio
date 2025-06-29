@@ -1,0 +1,40 @@
+{
+  "education": [
+    {
+      "id": 1,
+      "institution": "KIIT University, Bhubaneswar",
+      "degree": "B.Tech in Computer Science & Engineering",
+      "duration": "2023 – Present",
+      "cgpa": "9.01",
+      "status": "current",
+      "description": "Specializing in software development, data structures, algorithms, and machine learning."
+    },
+    {
+      "id": 2,
+      "institution": "IIT Madras",
+      "degree": "BSc in Data Science",
+      "duration": "Online/Hybrid Program",
+      "cgpa": "7.64",
+      "status": "ongoing",
+      "description": "Comprehensive program covering statistics, machine learning, and data analytics."
+    },
+    {
+      "id": 3,
+      "institution": "Chinmaya Vidyalaya, Bokaro",
+      "degree": "Class 12(PCM with CS)",
+      "duration": "2021 – 2023",
+      "cgpa": "9.3",
+      "status": "completed",
+      "description": "Completed with a focus on Physics, Chemistry, Mathematics, and Computer Science."
+    },
+    {
+      "id": 4,
+      "institution": "Chinmaya Vidyalaya, Bokaro",
+      "degree": "Secondary Schooling (till Class 10)",
+      "duration": "2009 – 2021",
+      "cgpa": "10",
+      "status": "completed",
+      "description": "Achieved a perfect score in the Secondary School Examination with a focus on all core subjects."
+    }
+  ]
+}

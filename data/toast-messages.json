@@ -1,0 +1,38 @@
+{
+  "success": {
+    "blogCreated": "Blog post created successfully!",
+    "blogUpdated": "Blog post updated successfully!",
+    "blogDeleted": "Blog post deleted successfully!",
+    "blogPublished": "Blog post published successfully!",
+    "blogUnpublished": "Blog post unpublished successfully!",
+    "imageCopied": "Image URL copied to clipboard!",
+    "textCopied": "Text copied to clipboard!",
+    "formSubmitted": "Message sent successfully!",
+    "loginSuccess": "Welcome back! Login successful.",
+    "logoutSuccess": "Logged out successfully!"
+  },
+  "error": {
+    "blogCreateFailed": "Failed to create blog post. Please try again.",
+    "blogUpdateFailed": "Failed to update blog post. Please try again.",
+    "blogDeleteFailed": "Failed to delete blog post. Please try again.",
+    "blogNotFound": "Blog post not found.",
+    "imageUploadFailed": "Failed to upload image. Please try again.",
+    "formSubmitFailed": "Failed to send message. Please try again.",
+    "loginFailed": "Invalid credentials. Please try again.",
+    "networkError": "Network error. Please check your connection.",
+    "genericError": "Something went wrong. Please try again."
+  },
+  "info": {
+    "blogSaved": "Blog post saved as draft.",
+    "imageUploading": "Uploading image...",
+    "formSubmitting": "Sending message...",
+    "loading": "Loading...",
+    "processing": "Processing..."
+  },
+  "warning": {
+    "unsavedChanges": "You have unsaved changes. Are you sure you want to leave?",
+    "deleteConfirm": "Are you sure you want to delete this blog post?",
+    "publishConfirm": "Are you sure you want to publish this blog post?",
+    "unpublishConfirm": "Are you sure you want to unpublish this blog post?"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "contactMethods": [
+    {
+      "icon": "Mail",
+      "label": "Email",
+      "value": "prakashshubham26@gmail.com",
+      "href": "mailto:prakashshubham26@gmail.com",
+      "copyable": true,
+      "type": "email"
+    },
+    {
+      "icon": "Phone",
+      "label": "Phone",
+      "value": "+91-9334676986",
+      "href": "tel:+91-9334676986",
+      "copyable": true,
+      "type": "phone"
+    },
+    {
+      "icon": "MapPin",
+      "label": "Location",
+      "value": "Bhubaneswar, India",
+      "href": "#",
+      "copyable": false,
+      "type": "location"
+    }
+  ]
+}

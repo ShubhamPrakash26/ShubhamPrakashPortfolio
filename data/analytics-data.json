@@ -1,0 +1,136 @@
+{
+  "topPerformingPosts": [
+    {
+      "id": 1,
+      "title": "Building Scalable Web Applications with MERN Stack",
+      "views": 2450,
+      "engagement": 85
+    },
+    {
+      "id": 2,
+      "title": "Machine Learning in Production: Deployment Strategies",
+      "views": 1890,
+      "engagement": 78
+    },
+    {
+      "id": 3,
+      "title": "The Future of Data Science: Trends and Technologies",
+      "views": 1650,
+      "engagement": 72
+    },
+    {
+      "id": 4,
+      "title": "Advanced React Patterns and Best Practices",
+      "views": 1420,
+      "engagement": 68
+    },
+    {
+      "id": 5,
+      "title": "Docker and Kubernetes for Beginners",
+      "views": 1200,
+      "engagement": 65
+    }
+  ],
+  "trafficSources": [
+    {
+      "source": "Organic Search",
+      "percentage": 45,
+      "color": "#3B82F6",
+      "visitors": 5625
+    },
+    {
+      "source": "Direct",
+      "percentage": 25,
+      "color": "#06B6D4",
+      "visitors": 3125
+    },
+    {
+      "source": "Social Media",
+      "percentage": 20,
+      "color": "#8B5CF6",
+      "visitors": 2500
+    },
+    {
+      "source": "Referrals",
+      "percentage": 10,
+      "color": "#10B981",
+      "visitors": 1250
+    }
+  ],
+  "deviceTypes": [
+    {
+      "device": "Desktop",
+      "percentage": 60,
+      "color": "#3B82F6",
+      "users": 7500
+    },
+    {
+      "device": "Mobile",
+      "percentage": 35,
+      "color": "#06B6D4",
+      "users": 4375
+    },
+    {
+      "device": "Tablet",
+      "percentage": 5,
+      "color": "#8B5CF6",
+      "users": 625
+    }
+  ],
+  "geographicDistribution": [
+    {
+      "country": "India",
+      "percentage": 40,
+      "color": "#3B82F6",
+      "visitors": 5000,
+      "flag": "🇮🇳"
+    },
+    {
+      "country": "United States",
+      "percentage": 25,
+      "color": "#06B6D4",
+      "visitors": 3125,
+      "flag": "🇺🇸"
+    },
+    {
+      "country": "United Kingdom",
+      "percentage": 15,
+      "color": "#8B5CF6",
+      "visitors": 1875,
+      "flag": "🇬🇧"
+    },
+    {
+      "country": "Canada",
+      "percentage": 10,
+      "color": "#10B981",
+      "visitors": 1250,
+      "flag": "🇨🇦"
+    },
+    {
+      "country": "Others",
+      "percentage": 10,
+      "color": "#F59E0B",
+      "visitors": 1250,
+      "flag": "🌍"
+    }
+  ],
+  "extendedStats": {
+    "uniqueVisitors": 8420,
+    "totalComments": 156,
+    "totalShares": 2340,
+    "bounceRate": 32,
+    "avgSessionDuration": "3:45",
+    "pageViews": 18750,
+    "newVisitors": 65,
+    "returningVisitors": 35
+  },
+  "trafficOverTime": [
+    { "month": "Jan", "views": 850, "visitors": 680, "sessions": 920 },
+    { "month": "Feb", "views": 1200, "visitors": 950, "sessions": 1280 },
+    { "month": "Mar", "views": 980, "visitors": 780, "sessions": 1050 },
+    { "month": "Apr", "views": 1450, "visitors": 1150, "sessions": 1580 },
+    { "month": "May", "views": 1100, "visitors": 880, "sessions": 1200 },
+    { "month": "Jun", "views": 1800, "visitors": 1420, "sessions": 1950 },
+    { "month": "Jul", "views": 1350, "visitors": 1080, "sessions": 1480 }
+  ]
+}
