@@ -94,14 +94,14 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center space-x-4">
-          <Button
+          {/* <Button
             variant="ghost"
             size="icon"
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             className="text-gray-300 hover:text-cyan-400"
           >
             {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
-          </Button>
+          </Button> */}
 
           <Button
             variant="ghost"

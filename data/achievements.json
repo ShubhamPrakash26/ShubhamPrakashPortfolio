@@ -1,40 +1,47 @@
 {
   "achievements": [
     {
+      "title": "McKinsey Forward Program Graduate",
+      "issuer": "McKinsey & Company",
+      "type": "certification",
+      "date": "2025",
+      "icon": "🎓"
+    },
+    {
       "title": "Android Development in Kotlin",
       "issuer": "Google",
       "type": "certification",
-      "date": "2024",
+      "date": "2025",
       "icon": "🤖"
     },
     {
-      "title": "Modern Flask Development",
+      "title": "Modern Application Development with Flask",
       "issuer": "IIT Madras",
       "type": "certification",
-      "date": "2024",
+      "date": "2025",
       "icon": "🐍"
     },
     {
-      "title": "Math Olympiad",
+      "title": "International Math Olympiad",
       "issuer": "National Competition",
       "type": "achievement",
       "date": "2023",
-      "description": "Rank 272 out of 15,000 participants",
+      "description": "Top 2% — Ranked 272 out of 15,000 participants",
       "icon": "🏆"
     }
   ],
   "responsibilities": [
     {
       "organization": "FED KIIT",
-      "position": "Sr. Technical Executive",
+      "position": "Senior Technical Executive",
       "duration": "Oct 2023 – Present",
-      "description": "Managed Skill Hunt events and optimized web applications by 30%. Led technical workshops and mentored junior developers."
+      "description": "Directed and hosted 405 Found Hackathon with 300+ participants. Managed real-time scoring infra and improved website speed by 30%. Co-led Skill Hunt event with 500+ attendees."
     },
     {
       "organization": "Student Council",
-      "position": "Technical Lead",
+      "position": "Council Member",
       "duration": "Jun 2017 – Jun 2019",
-      "description": "Led code of conduct changes and increased student engagement through innovative technical solutions."
+      "description": "Led student code of conduct implementation and improved grievance redressal for 800+ students, boosting policy compliance."
     }
   ]
 }

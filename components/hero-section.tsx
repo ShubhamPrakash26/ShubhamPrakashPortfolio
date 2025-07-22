@@ -16,7 +16,6 @@ export function HeroSection() {
   const { hero } = uiContent
   const { socialLinks } = navigationData
 
-  // Create icon mapping functions
   const getCtaIcon = (iconName: string) => {
     switch (iconName) {
       case "ExternalLink":
@@ -86,7 +85,7 @@ export function HeroSection() {
             {hero.greeting}
           </motion.p>
 
-          {/* Name with Glitch Effect */}
+          {/* Name */}
           <motion.h1
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -129,26 +128,68 @@ export function HeroSection() {
             transition={{ delay: 1 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-8"
           >
-            {hero.ctaButtons.map((button, index) => {
-              const IconComponent = getCtaIcon(button.icon)
-              return (
-                <Button
-                  key={index}
-                  onClick={button.action === "scrollToProjects" ? scrollToProjects : undefined}
-                  className={
-                    button.type === "primary"
-                      ? "group bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
-                      : "group border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 bg-transparent"
-                  }
-                  variant={button.type === "primary" ? "default" : "outline"}
-                >
-                  <IconComponent
-                    className={`mr-2 h-5 w-5 ${button.type === "primary" ? "group-hover:rotate-12" : "group-hover:animate-bounce"} transition-transform`}
-                  />
-                  {button.text}
-                </Button>
-              )
-            })}
+           {hero.ctaButtons.map((button, index) => {
+  const IconComponent = getCtaIcon(button.icon)
+
+  const buttonClasses =
+    button.type === "primary"
+      ? "group bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+      : "group border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 bg-transparent"
+
+  const iconClasses = `mr-2 h-5 w-5 ${
+    button.type === "primary"
+      ? "group-hover:rotate-12"
+      : "group-hover:animate-bounce"
+  } transition-transform`
+
+  // Handle resume download link
+  if (button.icon === "Download") {
+    return (
+      <a
+        key={index}
+        href="https://drive.google.com/file/d/1q2sSKvR0X7UuOMFcubZc6O0BTAEgxhRy/view?usp=drive_link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button className={buttonClasses} variant={button.type === "primary" ? "default" : "outline"}>
+          <IconComponent className={iconClasses} />
+          {button.text}
+        </Button>
+      </a>
+    )
+  }
+
+  // Handle View Projects (scroll)
+  if (button.text.toLowerCase().includes("project")) {
+    return (
+      <Button
+        key={index}
+        onClick={scrollToProjects}
+        className={buttonClasses}
+        variant={button.type === "primary" ? "default" : "outline"}
+      >
+        <IconComponent className={iconClasses} />
+        {button.text}
+      </Button>
+    )
+  }
+
+  // Fallback for external links (portfolio, blog, etc.)
+  return (
+    <a
+      key={index}
+      href={button.href ?? "#"}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Button className={buttonClasses} variant={button.type === "primary" ? "default" : "outline"}>
+        <IconComponent className={iconClasses} />
+        {button.text}
+      </Button>
+    </a>
+  )
+})}
+
           </motion.div>
 
           {/* Social Links */}
@@ -175,28 +216,6 @@ export function HeroSection() {
               )
             })}
           </motion.div>
-
-          {/* Scroll Indicator */}
-          {hero.scrollIndicator.show && (
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: hero.scrollIndicator.delay }}
-              className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-            >
-              <motion.div
-                animate={{ y: [0, 10, 0] }}
-                transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
-                className="w-6 h-10 border-2 border-cyan-400 rounded-full flex justify-center"
-              >
-                <motion.div
-                  animate={{ y: [0, 12, 0] }}
-                  transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
-                  className="w-1 h-3 bg-cyan-400 rounded-full mt-2"
-                />
-              </motion.div>
-            </motion.div>
-          )}
         </motion.div>
       </div>
     </section>

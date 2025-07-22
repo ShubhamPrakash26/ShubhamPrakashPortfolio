@@ -2,10 +2,24 @@
   "experiences": [
     {
       "id": 1,
+      "company": "BITS Pilani – MedSupervision Project",
+      "position": "Full Stack Developer",
+      "duration": "May 2024 – Present",
+      "description": "Leading full-stack development of a medical record and prescription management system with features like OCR-based report categorization, family sharing, and Aadhar-integrated login.",
+      "achievements": [
+        "Designed and implemented secure user authentication with JWT and Aadhar verification",
+        "Integrated OCR to auto-categorize medical prescriptions and reports",
+        "Built role-based dashboards for patients, doctors, and admins",
+        "Enabled selective sharing of health records via email and WhatsApp"
+      ],
+      "tech": ["MERN Stack", "OCR", "JWT", "Cloudinary", "Node.js", "MongoDB"]
+    },
+    {
+      "id": 2,
       "company": "Intel Unnati",
       "position": "Software Development Intern",
       "duration": "Jul 2024 – Sep 2024",
-      "description": "Built Flask + TensorFlow image depixelation application with advanced SRGAN architecture. Reduced processing time by 30% through optimization techniques.",
+      "description": "Built an image depixelation application using Flask and TensorFlow with SRGAN architecture. Reduced processing time by 30% through optimization techniques.",
       "achievements": [
         "Developed end-to-end image enhancement pipeline",
         "Implemented SRGAN for super-resolution",
@@ -13,20 +27,6 @@
         "Created user-friendly web interface"
       ],
       "tech": ["Flask", "TensorFlow", "SRGAN", "Python", "OpenCV"]
-    },
-    {
-      "id": 2,
-      "company": "Bharat Intern",
-      "position": "Web Development Intern",
-      "duration": "Oct – Dec 2023",
-      "description": "Developed responsive web applications with modern frameworks. Boosted user engagement by 40% through improved UX/UI design and performance optimization.",
-      "achievements": [
-        "Built responsive web applications",
-        "Improved user engagement by 40%",
-        "Implemented modern UI/UX practices",
-        "Optimized application performance"
-      ],
-      "tech": ["React", "JavaScript", "CSS3", "Bootstrap", "Git"]
     }
   ]
 }

@@ -2,69 +2,91 @@
   "projects": [
     {
       "id": 1,
-      "title": "Pixelated Image Detection",
-      "description": "Advanced image enhancement using Flask + TensorFlow with SRGAN architecture, achieving 70% clarity improvement in pixelated images.",
-      "tech": ["Flask", "TensorFlow", "SRGAN", "Python", "OpenCV"],
-      "github": "https://github.com/shubhamprakash26/pixelated-detection",
-      "demo": "#",
-      "image": "/placeholder.svg?height=200&width=300",
+      "title": "DiaryVerse",
+      "description": "Secure digital diary platform with JWT authentication, Markdown support, private/public toggle, and notification system built using MERN stack.",
+      "tech": ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS", "Framer Motion"],
+      "github": "https://github.com/ShubhamPrakash26/DiaryVerse",
+      "demo": "https://diary-verse-frontend.vercel.app/",
+      "image": "DiaryVerse.png",
       "featured": true,
-      "category": "AI/ML"
+      "category": "Full Stack"
     },
     {
       "id": 2,
-      "title": "BudgetMentor",
-      "description": "AI-powered budgeting tool built with MERN stack and Gemini API for intelligent financial planning and expense tracking.",
-      "tech": ["React", "Node.js", "MongoDB", "Gemini API", "Express"],
-      "github": "https://github.com/shubhamprakash26/budget-mentor",
-      "demo": "#",
-      "image": "/placeholder.svg?height=200&width=300",
+      "title": "TheCinePass",
+      "description": "Movie ticket booking platform with TMDB API integration, Stripe payments, and Clerk-based authentication.",
+      "tech": ["React.js", "Stripe", "Clerk", "MongoDB", "Tailwind CSS", "TMDB API", "Express"],
+      "github": "https://github.com/ShubhamPrakash26/TheCinePass",
+      "demo": "https://thecinepass.vercel.app/",
+      "image": "TheCinePass.png",
       "featured": true,
       "category": "Full Stack"
     },
     {
       "id": 3,
-      "title": "Quiz Master",
-      "description": "Interactive quiz application with dynamic question generation, real-time scoring, and comprehensive analytics dashboard.",
-      "tech": ["Flask", "SQLAlchemy", "Bootstrap", "JavaScript", "SQLite"],
-      "github": "https://github.com/shubhamprakash26/quiz-master",
-      "demo": "#",
-      "image": "/placeholder.svg?height=200&width=300",
-      "featured": false,
-      "category": "Web App"
-    },
-    {
-      "id": 4,
-      "title": "Data Analytics Dashboard",
-      "description": "Comprehensive data visualization platform with real-time analytics and interactive charts for business intelligence.",
-      "tech": ["React", "D3.js", "Python", "FastAPI", "PostgreSQL"],
-      "github": "#",
-      "demo": "#",
-      "image": "/placeholder.svg?height=200&width=300",
-      "featured": false,
-      "category": "Data Science"
-    },
-    {
-      "id": 5,
-      "title": "E-Commerce Platform",
-      "description": "Full-featured e-commerce solution with payment integration, inventory management, and admin dashboard.",
-      "tech": ["Next.js", "Stripe", "Prisma", "PostgreSQL", "Tailwind"],
-      "github": "#",
-      "demo": "#",
+      "title": "Airbnb Clone",
+      "description": "Airbnb-style listing platform with Passport.js authentication, EJS templating, MongoDB, and Google Maps integration.",
+      "tech": ["Node.js", "Express", "MongoDB", "Passport.js", "EJS", "Map API"],
+      "github": "https://github.com/ShubhamPrakash26/Airbnb",
+      "demo": "https://github.com/ShubhamPrakash26/Airbnb",
       "image": "/placeholder.svg?height=200&width=300",
       "featured": false,
       "category": "Full Stack"
     },
     {
-      "id": 6,
-      "title": "ML Model Deployment",
-      "description": "Scalable machine learning model deployment platform with Docker containerization and CI/CD pipeline.",
-      "tech": ["Docker", "Kubernetes", "MLflow", "FastAPI", "AWS"],
+      "id": 4,
+      "title": "MoneyMind",
+      "description": "Cross-platform financial tracker using React Native, Neon DB, and Redis, featuring push notifications and secure session handling.",
+      "tech": ["React Native", "Neon", "Redis", "JWT", "Node.js", "Express"],
       "github": "#",
       "demo": "#",
+      "image": "MoneyMind.png",
+      "featured": true,
+      "category": "Mobile App"
+    },
+    {
+      "id": 5,
+      "title": "MedSupervision Platform",
+      "description": "OCR-powered medical report analysis with Gemini API integration, prescription categorization, selective sharing, and multi-user support.",
+      "tech": ["MERN Stack", "OCR", "Gemini API", "JWT", "Multer", "OpenCV"],
+      "github": "https://github.com/ShubhamPrakash26/MedSupervision",
+      "demo": "http://www.medsupervision.in",
+      "image": "MedSupervision.png",
+      "featured": true,
+      "category": "AI/ML"
+    },
+    {
+      "id": 6,
+      "title": "Pixelated Image Detection",
+      "description": "Image enhancement using SRGAN (TensorFlow) with Flask backend, improving clarity in pixelated images by 70% (measured via PSNR).",
+      "tech": ["Flask", "TensorFlow", "SRGAN", "Python", "OpenCV"],
+      "github": "https://github.com/ShubhamPrakash26/pixelated-image-detection-system",
+      "demo": "https://github.com/ShubhamPrakash26/pixelated-image-detection-system",
       "image": "/placeholder.svg?height=200&width=300",
       "featured": false,
-      "category": "DevOps"
+      "category": "AI/ML"
+    },
+    {
+      "id": 7,
+      "title": "BudgetMentor",
+      "description": "AI-powered budgeting assistant with smart tracking, GPT-4 integration for suggestions, and personalized analytics dashboard.",
+      "tech": ["MERN", "Gemini API", "JWT", "Chart.js", "Tailwind CSS"],
+      "github": "https://github.com/ShubhamPrakash26/Budget-Mentor",
+      "demo": "https://github.com/ShubhamPrakash26/Budget-Mentor",
+      "image": "/placeholder.svg?height=200&width=300",
+      "featured": false,
+      "category": "Full Stack"
+    },
+    {
+      "id": 8,
+      "title": "Quiz Master",
+      "description": "Dynamic quiz web app with admin panel, real-time scoring, question bank, and analytics, deployed with Flask and SQLite.",
+      "tech": ["Flask", "SQLAlchemy", "JavaScript", "Bootstrap", "SQLite"],
+      "github": "https://github.com/ShubhamPrakash26/Quiz_Master_App",
+      "demo": "https://quizdeck-37ht.onrender.com/",
+      "image": "QuizMaster.png",
+      "featured": true,
+      "category": "Web App"
     }
   ]
 }

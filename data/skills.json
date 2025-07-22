@@ -1,34 +1,58 @@
 {
   "categories": [
     {
-      "title": "Web Development",
-      "skills": ["MERN", "Flask", "REST APIs", "Firebase"],
-      "icon": "🌐",
-      "color": "from-blue-500 to-cyan-500"
-    },
-    {
       "title": "Programming Languages",
-      "skills": ["Java", "Python", "C", "JavaScript"],
+      "skills": ["Java", "Python", "C", "JavaScript", "TypeScript"],
       "icon": "💻",
       "color": "from-green-500 to-emerald-500"
     },
     {
-      "title": "Dev Tools",
-      "skills": ["Git", "Docker", "SQL", "MongoDB", "PostgreSQL", "Cassandra"],
-      "icon": "🛠️",
-      "color": "from-purple-500 to-violet-500"
+      "title": "Web Development",
+      "skills": ["React.js", "Node.js", "Express.js", "Flask", "EJS", "REST APIs", "JWT", "OAuth", "Passport.js"],
+      "icon": "🌐",
+      "color": "from-blue-500 to-cyan-500"
     },
     {
-      "title": "Cloud & CI/CD",
-      "skills": ["AWS", "Azure", "GCP", "CI/CD", "JWT", "OAuth"],
-      "icon": "☁️",
+      "title": "Mobile Development",
+      "skills": ["React Native", "Expo", "Flutter", "Swift", "Kotlin"],
+      "icon": "📱",
+      "color": "from-yellow-500 to-amber-500"
+    },
+    {
+      "title": "Databases",
+      "skills": ["MongoDB", "PostgreSQL", "Redis", "Firebase"],
+      "icon": "🗃️",
+      "color": "from-purple-500 to-indigo-500"
+    },
+    {
+      "title": "DevOps & Tools",
+      "skills": ["Git", "Docker", "GitHub Actions", "CI/CD", "Railway", "Netlify", "Vercel"],
+      "icon": "🛠️",
       "color": "from-pink-500 to-rose-500"
     },
     {
-      "title": "Core Concepts",
-      "skills": ["SDLC", "CRUD", "MVC", "Authentication"],
+      "title": "Cloud & APIs",
+      "skills": ["AWS", "GCP", "Stripe", "Clerk", "TMDB API", "Gemini API"],
+      "icon": "☁️",
+      "color": "from-indigo-500 to-sky-500"
+    },
+    {
+      "title": "Architecture & Concepts",
+      "skills": ["Microservices", "MVC", "Authentication", "Authorization", "SDLC"],
       "icon": "🧠",
       "color": "from-orange-500 to-yellow-500"
+    },
+    {
+      "title": "Design & Styling",
+      "skills": ["Tailwind CSS", "Framer Motion", "Bootstrap"],
+      "icon": "🎨",
+      "color": "from-red-500 to-pink-500"
+    },
+    {
+      "title": "CS Fundamentals",
+      "skills": ["Data Structures", "Algorithms", "Trees", "Graphs", "Dynamic Programming"],
+      "icon": "📘",
+      "color": "from-slate-500 to-gray-600"
     }
   ]
 }
